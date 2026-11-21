@@ -11,7 +11,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "generate-types": "wrangler types"
+    "generate-types": "wrangler types",
+    "verify:identity": "node scripts/verify-no-retired-social-profiles.mjs"
   },
   "dependencies": {
     "@astrojs/cloudflare": "^14.3.1",
